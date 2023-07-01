@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore , collection } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyBE6s9pIt_5DUxREqWSmh1j13ywqDBpXpE",
+  apiKey:import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "movie-review-6e0eb.firebaseapp.com",
   projectId: "movie-review-6e0eb",
   storageBucket: "movie-review-6e0eb.appspot.com",
