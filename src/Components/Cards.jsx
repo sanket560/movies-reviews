@@ -32,7 +32,7 @@ const Cards = () => {
           <Link to={`/detail/${element.id}`}>
             <div
               key={index}
-              className='card capitalize w-[150px] h-[300px] md:w-[320px] md:h-[420px] font-semibold shadow-lg p-2 hover:-translate-y-1 cursor-pointer rounded-xl transition-all duration-500'
+              className='card capitalize w-[170px] h-[300px] md:w-[320px] md:h-[420px] font-semibold shadow-lg p-2 hover:-translate-y-1 cursor-pointer rounded-xl transition-all duration-500'
             >
               <img
                 className='h-48 md:h-80 pb-3 w-full rounded-xl'
